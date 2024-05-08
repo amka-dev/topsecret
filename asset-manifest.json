@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/topsecret/static/css/main.962df7a8.css",
+    "main.js": "/topsecret/static/js/main.e529727c.js",
+    "static/js/453.cdc1ac4c.chunk.js": "/topsecret/static/js/453.cdc1ac4c.chunk.js",
+    "index.html": "/topsecret/index.html",
+    "main.962df7a8.css.map": "/topsecret/static/css/main.962df7a8.css.map",
+    "main.e529727c.js.map": "/topsecret/static/js/main.e529727c.js.map",
+    "453.cdc1ac4c.chunk.js.map": "/topsecret/static/js/453.cdc1ac4c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.962df7a8.css",
+    "static/js/main.e529727c.js"
+  ]
+}
