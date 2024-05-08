@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/topsecret/static/css/main.962df7a8.css",
-    "main.js": "/topsecret/static/js/main.673405eb.js",
+    "main.css": "/topsecret/static/css/main.baf5e8cd.css",
+    "main.js": "/topsecret/static/js/main.22e06f53.js",
+    "static/media/mekanik.mp3": "/topsecret/static/media/mekanik.f3ab267043a6e6cd91ef.mp3",
+    "static/media/pause.png": "/topsecret/static/media/pause.48bd2936c1ac596cf550.png",
     "index.html": "/topsecret/index.html",
-    "main.962df7a8.css.map": "/topsecret/static/css/main.962df7a8.css.map",
-    "main.673405eb.js.map": "/topsecret/static/js/main.673405eb.js.map"
+    "main.baf5e8cd.css.map": "/topsecret/static/css/main.baf5e8cd.css.map",
+    "main.22e06f53.js.map": "/topsecret/static/js/main.22e06f53.js.map"
   },
   "entrypoints": [
-    "static/css/main.962df7a8.css",
-    "static/js/main.673405eb.js"
+    "static/css/main.baf5e8cd.css",
+    "static/js/main.22e06f53.js"
   ]
 }
