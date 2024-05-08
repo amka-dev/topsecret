@@ -1,28 +1,19 @@
 import React from 'react'
 import './App.css'
 import { Link } from 'react-router-dom'
+import GayDetected from './GayDetected'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import AreYouGay from './AreYouGay'
+import WhatGenda from './WhatGenda'
 
 function App() {
 	return (
 		<div className='App'>
-			<div className='wrap'>
-				<div>
-					<div className='title'>
-						<p>What is yo genda?</p>
-					</div>
-					<div className='buttons'>
-						<Link to='/areyougay'>
-							<button>Women</button>
-						</Link>
-						<Link to='/areyougay'>
-							<button>Men</button>
-						</Link>
-						<Link to='/areyougay'>
-							<button>Mekanik</button>
-						</Link>
-					</div>
-				</div>
-			</div>
+			<Routes>
+				<Route path='/topsecret' element={<WhatGenda />} />
+				<Route path='/gay-detected' element={<GayDetected />} />
+				<Route path='/areyougay' element={<AreYouGay />} />
+			</Routes>
 		</div>
 	)
 }
