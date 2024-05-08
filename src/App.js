@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import { Link } from 'react-router-dom'
-import GayDetected from './GayDetected'
+import GayDetected from './Pages/GayDetected'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import AreYouGay from './AreYouGay'
+import AreYouGay from './Pages/AreYouGay'
 import WhatGenda from './WhatGenda'
+import Mekanik from './Pages/Mekanik'
 
 function App() {
 	return (
@@ -13,6 +13,7 @@ function App() {
 				<Route path='/topsecret' element={<WhatGenda />} />
 				<Route path='/gay-detected' element={<GayDetected />} />
 				<Route path='/areyougay' element={<AreYouGay />} />
+				<Route path='/mekanik' element={<Mekanik />} />
 			</Routes>
 		</div>
 	)

@@ -82,3 +82,31 @@
 		opacity: 0; /* Прозрачный текст */
 	}
 }
+
+.audio {
+	display: none;
+}
+
+.mekanik-main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	row-gap: 16px;
+
+	.mekanik-img {
+		height: 50%;
+	}
+
+	button {
+		outline: none;
+		border: none;
+		background: none;
+
+		img {
+			width: 30%;
+		}
+	}
+}

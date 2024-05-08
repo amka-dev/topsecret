@@ -12,13 +12,13 @@ const WhatGenda = () => {
 					</div>
 					<div className='buttons'>
 						<Link to='/areyougay'>
-							<button>Women</button>
+							<button>Women☕</button>
 						</Link>
 						<Link to='/areyougay'>
-							<button>Men</button>
+							<button>Men🐒</button>
 						</Link>
-						<Link to='/areyougay'>
-							<button>Mekanik</button>
+						<Link to='/mekanik'>
+							<button>Mekanik🔧</button>
 						</Link>
 					</div>
 				</div>
