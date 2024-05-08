@@ -1,0 +1,84 @@
+.App {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.wrap-gay {
+	background: linear-gradient(#ff3155 0%, #ff3155 25%, #ffaf42 25%, #ffaf42 50%, #ffed5e 50%, #ffed5e 75%, #2daefd 75%);
+	bakground-position: 100px 100vh;
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	animation: gradient 10s infinite linear;
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		p {
+			font-size: 24px;
+		}
+	}
+}
+
+@keyframes gradient {
+	to {
+		background-position: 0 1000px;
+	}
+}
+
+.title {
+	p {
+		font-size: 24px;
+	}
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	column-gap: 32px;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+
+	button {
+		width: 86px;
+		height: 32px;
+		cursor: pointer;
+	}
+}
+
+.blink {
+	font-size: 64px;
+	animation: blink 0.8s infinite; /* Параметры анимации */
+}
+@keyframes blink {
+	from {
+		opacity: 1; /* Непрозрачный текст */
+	}
+	to {
+		opacity: 0; /* Прозрачный текст */
+	}
+}
